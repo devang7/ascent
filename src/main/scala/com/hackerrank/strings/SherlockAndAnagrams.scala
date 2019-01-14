@@ -15,7 +15,7 @@ class SherlockAndAnagrams {
   }
 
   /**
-    * Given a list of strings, it returns all the anagramatic pairs.
+    * Given a list of equal length strings, it returns all the anagramatic pairs.
     * For eg: list = ["AB", "BA", "AB"] => [("AB", "BA"), ("AB", "AB"), ("BA", "AB")]
     * @param list
     * @return List of anagramatic pairs
@@ -31,3 +31,8 @@ class SherlockAndAnagrams {
 
   private def isAnagram(s1: String, s2: String): Boolean = s1.toList.diff(s2.toList).size == 0
 }
+
+/*
+  Notes:
+   - Needs time complexity improvements.
+*/
