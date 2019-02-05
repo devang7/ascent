@@ -1,4 +1,4 @@
-name := "AIS"
+name := "ascent"
 
 version := "0.1"
 
