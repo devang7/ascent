@@ -1,3 +1,3 @@
-# Algorithms in Scala
+# Project Ascent
 
-This project contains a few competitive coding questions coded in scala
+This is my personal project which aims at solving Algorithms in Scala with a purely functional paradigm.
