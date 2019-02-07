@@ -7,7 +7,6 @@ package com.ninetynineproblems.lists
   * res0: Int = 8
   */
 class P01 {
-
   def last[A](list: List[A]): A = {
     list match {
       case h :: Nil => h

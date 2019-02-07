@@ -8,7 +8,6 @@ package com.ninetynineproblems.lists
   * res0: Int = 5
   */
 class P02 {
-
   def penultimate[A](list: List[A]): A = {
     list match {
       case h :: tail => {
@@ -17,14 +16,6 @@ class P02 {
           case _ => penultimate(tail)
         }
       }
-      case _ => throw new NoSuchElementException
-    }
-  }
-
-  def penultimateI[A](list: List[A]): A = {
-    list match {
-      case h :: _ :: Nil => h
-      case _ :: tail => penultimate(tail)
       case _ => throw new NoSuchElementException
     }
   }
