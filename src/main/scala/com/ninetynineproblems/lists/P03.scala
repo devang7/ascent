@@ -17,7 +17,7 @@ class P03 {
   			case head :: tail => {
   				k match {
   					case found if (k == 0) => head
-  					case findMore => findKthElement(k - 1, tail)
+  					case _ => findKthElement(k - 1, tail)
   				}
   			}
   	  }
